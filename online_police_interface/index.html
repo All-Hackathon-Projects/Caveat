@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<style>
+
+		html, body
+		{
+  			height: 100%;
+  			margin: 0;
+  			padding: 0;
+		}
+
+		#map
+		{
+ 	 		height: 100%;
+		}
+
+		.button-container
+		{
+			width: 100%;
+			display: flex;
+			flex-flow: row nowrap;
+			justify-content: space-between;
+		}
+
+		.button
+		{
+			height: 50px;
+			width: 100%;
+			transition: ease 0.3s;
+			font-size: 1.5em;
+			color: white;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+		}
+
+		.confirm { background-color: #5AAC56; }
+		.confirm:hover { background-color: #338A2E; }
+		.reject { background-color: #D3696C; }
+		.reject:hover { background-color: #A9383B; }
+
+		#logo
+		{
+			position: absolute;
+			z-index: 9999;
+			float: right;
+		}
+		#logo img
+		{
+			width: 25%
+		}
+
+		
+	</style>
+
+	<title>Chicago Crime</title>
+	<link rel="shortcut icon" href="favicon.ico"/>
+<body>
+
+	<div id="logo"><img src="small-icon.png"></div>
+	<div id="map"></div>
+
+	<script src="data.js"></script>
+	<script
+ 	 src="https://code.jquery.com/jquery-3.2.1.min.js"
+ 	 integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  	 crossorigin="anonymous"></script>
+	<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCO5ksiUaH28YJ56end6feepZBbCR8gYS4&callback=initMap"></script>
+	<script src="script.js"></script>
+
+</body>
+</html>

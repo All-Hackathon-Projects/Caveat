@@ -1,0 +1,66 @@
+PODS:
+  - AFNetworking (3.1.0):
+    - AFNetworking/NSURLSession (= 3.1.0)
+    - AFNetworking/Reachability (= 3.1.0)
+    - AFNetworking/Security (= 3.1.0)
+    - AFNetworking/Serialization (= 3.1.0)
+    - AFNetworking/UIKit (= 3.1.0)
+  - AFNetworking/NSURLSession (3.1.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.1.0)
+  - AFNetworking/Security (3.1.0)
+  - AFNetworking/Serialization (3.1.0)
+  - AFNetworking/UIKit (3.1.0):
+    - AFNetworking/NSURLSession
+  - AWSCognito (2.5.7):
+    - AWSCore (= 2.5.7)
+  - AWSCognitoIdentityProvider (2.5.7):
+    - AWSCore (= 2.5.7)
+  - AWSCore (2.5.7)
+  - AWSLex (2.5.7):
+    - AWSCore (= 2.5.7)
+  - ChameleonFramework (2.1.0):
+    - ChameleonFramework/Default (= 2.1.0)
+  - ChameleonFramework/Default (2.1.0)
+  - DFContinuousForceTouchGestureRecognizer (0.1.0)
+  - DTMHeatmap (1.0)
+  - FSLineChart (0.1.7)
+  - MZAppearance (1.1.6)
+  - MZFormSheetPresentationController (2.4.0):
+    - MZAppearance
+  - pop (1.0.9)
+  - SVProgressHUD (2.0.3)
+
+DEPENDENCIES:
+  - AFNetworking
+  - AWSCognito
+  - AWSCognitoIdentityProvider
+  - AWSLex
+  - ChameleonFramework
+  - DFContinuousForceTouchGestureRecognizer (~> 0.1.0)
+  - DTMHeatmap
+  - FSLineChart
+  - MZFormSheetPresentationController
+  - pop (~> 1.0)
+  - SVProgressHUD
+
+SPEC CHECKSUMS:
+  AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
+  AWSCognito: 833e56f35762648f551ca77f60240a5d7c615e13
+  AWSCognitoIdentityProvider: 7b2ac768763bab6ea57830482267447c792f3358
+  AWSCore: 716d787cde0239b3e92f9b4151c052f55a117703
+  AWSLex: 8ee02bfb53360868f46fc65ff4e03251bd052efb
+  ChameleonFramework: d21a3cc247abfe5e37609a283a8238b03575cf64
+  DFContinuousForceTouchGestureRecognizer: a5cd6bf98478917e7745d57f15667ec98efb87f1
+  DTMHeatmap: f5588af0730fbfe78c75d6d013f1932d7d327ab2
+  FSLineChart: 1b8d3727e8feb323144126d381184bf1b15e6efc
+  MZAppearance: 0c06d3fa9cc55142f1da14bc8631fbe8fd6e19d5
+  MZFormSheetPresentationController: 3b9b6d76adc9f81c2defd0bb59e0f3dc2431e41e
+  pop: f667631a5108a2e60d9e8797c9b32ddaf2080bce
+  SVProgressHUD: b0830714205bea1317ea1a2ebc71e5633af334d4
+
+PODFILE CHECKSUM: 02751d61e8efdd3591e82d7df38e197e255017be
+
+COCOAPODS: 1.0.1

@@ -1,0 +1,33 @@
+{
+  "name": "ccm-server",
+  "version": "1.0.0",
+  "description": "A beautiful yet useful utility for crime data management for Chicago.",
+  "main": "server.js",
+  "scripts": {
+    "start": "echo use npm run node-server and npm run mongo-server",
+    "node-server": "nodemon node_server.js --ignore api/ml/crimes.json ",
+    "mongo-server": "node mongo_server.js --dbpath db --port 3000",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/All-Hackathon-Projects/Caveat.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/All-Hackathon-Projects/Caveat/issues"
+  },
+  "homepage": "https://github.com/All-Hackathon-Projects/Caveat#readme",
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  },
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "decision-tree": "^0.3.1",
+    "express": "^4.15.3",
+    "jsonfile": "^3.0.0",
+    "mongoose": "^4.9.9",
+    "smr": "^0.12.5"
+  }
+}

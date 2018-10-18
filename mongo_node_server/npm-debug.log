@@ -1,0 +1,35 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Development\\NodeJS\\node.exe',
+1 verbose cli   'C:\\Development\\NodeJS\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'run',
+1 verbose cli   'mongo-server' ]
+2 info using npm@4.1.2
+3 info using node@v7.7.4
+4 verbose run-script [ 'premongo-server', 'mongo-server', 'postmongo-server' ]
+5 info lifecycle ccm-server@1.0.0~premongo-server: ccm-server@1.0.0
+6 silly lifecycle ccm-server@1.0.0~premongo-server: no script for premongo-server, continuing
+7 info lifecycle ccm-server@1.0.0~mongo-server: ccm-server@1.0.0
+8 verbose lifecycle ccm-server@1.0.0~mongo-server: unsafe-perm in lifecycle true
+9 verbose lifecycle ccm-server@1.0.0~mongo-server: PATH: C:\Development\NodeJS\node_modules\npm\bin\node-gyp-bin;C:\Users\Aditya M\Desktop\caveat-server\node_modules\.bin;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Git LFS;C:\Users\Aditya M\AppData\Local\Microsoft\WindowsApps;C:\Development\JDK\bin;C:\Development\Android\platform-tools;C:\Development\Git\bin;C:\Development\NodeJS;C:\Development\Python\python-3.6.1.amd64;C:\Development\Python\python-3.6.1.amd64\Scripts;C:\Development\bin;C:\Development\MongoDB\bin;
+10 verbose lifecycle ccm-server@1.0.0~mongo-server: CWD: C:\Users\Aditya M\Desktop\caveat-server
+11 silly lifecycle ccm-server@1.0.0~mongo-server: Args: [ '/d /s /c', 'node mongo_server.js --dbpath db --port 3000' ]
+12 verbose stack Error: kill ENOSYS
+12 verbose stack     at exports._errnoException (util.js:1034:11)
+12 verbose stack     at process.kill (internal/process.js:188:13)
+12 verbose stack     at process.listener (C:\Development\NodeJS\node_modules\npm\node_modules\npmlog\node_modules\gauge\node_modules\signal-exit\index.js:95:15)
+12 verbose stack     at emitNone (events.js:86:13)
+12 verbose stack     at process.emit (events.js:188:7)
+12 verbose stack     at processEmit (C:\Development\NodeJS\node_modules\npm\node_modules\npmlog\node_modules\gauge\node_modules\signal-exit\index.js:155:32)
+12 verbose stack     at Signal.wrap.onsignal (internal/process.js:215:44)
+13 verbose cwd C:\Users\Aditya M\Desktop\caveat-server
+14 error Windows_NT 10.0.15063
+15 error argv "C:\\Development\\NodeJS\\node.exe" "C:\\Development\\NodeJS\\node_modules\\npm\\bin\\npm-cli.js" "run" "mongo-server"
+16 error node v7.7.4
+17 error npm  v4.1.2
+18 error code ENOSYS
+19 error errno ENOSYS
+20 error syscall kill
+21 error kill ENOSYS
+22 error If you need help, you may report this error at:
+22 error     <https://github.com/npm/npm/issues>
+23 verbose exit [ 1, true ]

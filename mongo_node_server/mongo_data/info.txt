@@ -1,0 +1,17 @@
+Server IP: 10.1.23.201
+Node Port: 4000
+Mongo Port: 3000
+Mongo: ccmdb/crime_collection
+
+Fields:
+
+date
+time
+address
+primaryType
+secondaryType
+locationType
+lat - double
+long - double
+weight - int
+genericType
